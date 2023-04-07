@@ -1,0 +1,25 @@
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  td:first-child {
+    border-left: none;
+  }
+  
+  td:last-child {
+    border-right: none;
+  }
+  
+  tr:not(:last-child) td {
+    border-bottom: none;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #f8f8f8;
+  }
